@@ -13,7 +13,7 @@ app.get("/", function(req, res){
 app.post("/",function(req,res){
 
   console.log(req.body.city);
-  const key = "b6e19d92daea6f8d6c533d397f7ef2c5"
+  const key = ""
   var unit = "metric";
   var city = req.body.city;
   var charset = "utf-8"
